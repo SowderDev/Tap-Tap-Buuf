@@ -1,0 +1,542 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C2AC42C41CBAE28B000BCE40 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2AC42C31CBAE28B000BCE40 /* AppDelegate.swift */; };
+		C2AC42C61CBAE28B000BCE40 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = C2AC42C51CBAE28B000BCE40 /* GameScene.sks */; };
+		C2AC42C81CBAE28B000BCE40 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2AC42C71CBAE28B000BCE40 /* GameScene.swift */; };
+		C2AC42CA1CBAE28B000BCE40 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2AC42C91CBAE28B000BCE40 /* GameViewController.swift */; };
+		C2AC42CD1CBAE28B000BCE40 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C2AC42CB1CBAE28B000BCE40 /* Main.storyboard */; };
+		C2AC42CF1CBAE28B000BCE40 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C2AC42CE1CBAE28B000BCE40 /* Assets.xcassets */; };
+		C2AC42D21CBAE28B000BCE40 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C2AC42D01CBAE28B000BCE40 /* LaunchScreen.storyboard */; };
+		C2AC42DD1CBAE28B000BCE40 /* TapTapBuufTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2AC42DC1CBAE28B000BCE40 /* TapTapBuufTests.swift */; };
+		C2AC42E81CBAE28B000BCE40 /* TapTapBuufUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2AC42E71CBAE28B000BCE40 /* TapTapBuufUITests.swift */; };
+		C2AC42F61CBB03D3000BCE40 /* WallRandomisation.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2AC42F51CBB03D3000BCE40 /* WallRandomisation.swift */; };
+		C2AC42F91CBB34C9000BCE40 /* Go Boom!.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C2AC42F81CBB34C9000BCE40 /* Go Boom!.ttf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C2AC42D91CBAE28B000BCE40 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C2AC42B81CBAE28B000BCE40 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C2AC42BF1CBAE28B000BCE40;
+			remoteInfo = TapTapBuuf;
+		};
+		C2AC42E41CBAE28B000BCE40 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C2AC42B81CBAE28B000BCE40 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C2AC42BF1CBAE28B000BCE40;
+			remoteInfo = TapTapBuuf;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C2AC42C01CBAE28B000BCE40 /* TapTapBuuf.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TapTapBuuf.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2AC42C31CBAE28B000BCE40 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C2AC42C51CBAE28B000BCE40 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		C2AC42C71CBAE28B000BCE40 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		C2AC42C91CBAE28B000BCE40 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		C2AC42CC1CBAE28B000BCE40 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C2AC42CE1CBAE28B000BCE40 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C2AC42D11CBAE28B000BCE40 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C2AC42D31CBAE28B000BCE40 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C2AC42D81CBAE28B000BCE40 /* TapTapBuufTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TapTapBuufTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2AC42DC1CBAE28B000BCE40 /* TapTapBuufTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TapTapBuufTests.swift; sourceTree = "<group>"; };
+		C2AC42DE1CBAE28B000BCE40 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C2AC42E31CBAE28B000BCE40 /* TapTapBuufUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TapTapBuufUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2AC42E71CBAE28B000BCE40 /* TapTapBuufUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TapTapBuufUITests.swift; sourceTree = "<group>"; };
+		C2AC42E91CBAE28B000BCE40 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C2AC42F51CBB03D3000BCE40 /* WallRandomisation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = WallRandomisation.swift; path = ../WallRandomisation.swift; sourceTree = "<group>"; };
+		C2AC42F81CBB34C9000BCE40 /* Go Boom!.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Go Boom!.ttf"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C2AC42BD1CBAE28B000BCE40 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2AC42D51CBAE28B000BCE40 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2AC42E01CBAE28B000BCE40 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C2AC42B71CBAE28B000BCE40 = {
+			isa = PBXGroup;
+			children = (
+				C2AC42C21CBAE28B000BCE40 /* TapTapBuuf */,
+				C2AC42DB1CBAE28B000BCE40 /* TapTapBuufTests */,
+				C2AC42E61CBAE28B000BCE40 /* TapTapBuufUITests */,
+				C2AC42C11CBAE28B000BCE40 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C2AC42C11CBAE28B000BCE40 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C2AC42C01CBAE28B000BCE40 /* TapTapBuuf.app */,
+				C2AC42D81CBAE28B000BCE40 /* TapTapBuufTests.xctest */,
+				C2AC42E31CBAE28B000BCE40 /* TapTapBuufUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C2AC42C21CBAE28B000BCE40 /* TapTapBuuf */ = {
+			isa = PBXGroup;
+			children = (
+				C2AC42F81CBB34C9000BCE40 /* Go Boom!.ttf */,
+				C2AC42C31CBAE28B000BCE40 /* AppDelegate.swift */,
+				C2AC42C51CBAE28B000BCE40 /* GameScene.sks */,
+				C2AC42C71CBAE28B000BCE40 /* GameScene.swift */,
+				C2AC42F51CBB03D3000BCE40 /* WallRandomisation.swift */,
+				C2AC42C91CBAE28B000BCE40 /* GameViewController.swift */,
+				C2AC42CB1CBAE28B000BCE40 /* Main.storyboard */,
+				C2AC42CE1CBAE28B000BCE40 /* Assets.xcassets */,
+				C2AC42D01CBAE28B000BCE40 /* LaunchScreen.storyboard */,
+				C2AC42D31CBAE28B000BCE40 /* Info.plist */,
+			);
+			path = TapTapBuuf;
+			sourceTree = "<group>";
+		};
+		C2AC42DB1CBAE28B000BCE40 /* TapTapBuufTests */ = {
+			isa = PBXGroup;
+			children = (
+				C2AC42DC1CBAE28B000BCE40 /* TapTapBuufTests.swift */,
+				C2AC42DE1CBAE28B000BCE40 /* Info.plist */,
+			);
+			path = TapTapBuufTests;
+			sourceTree = "<group>";
+		};
+		C2AC42E61CBAE28B000BCE40 /* TapTapBuufUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C2AC42E71CBAE28B000BCE40 /* TapTapBuufUITests.swift */,
+				C2AC42E91CBAE28B000BCE40 /* Info.plist */,
+			);
+			path = TapTapBuufUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C2AC42BF1CBAE28B000BCE40 /* TapTapBuuf */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C2AC42EC1CBAE28B000BCE40 /* Build configuration list for PBXNativeTarget "TapTapBuuf" */;
+			buildPhases = (
+				C2AC42BC1CBAE28B000BCE40 /* Sources */,
+				C2AC42BD1CBAE28B000BCE40 /* Frameworks */,
+				C2AC42BE1CBAE28B000BCE40 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TapTapBuuf;
+			productName = TapTapBuuf;
+			productReference = C2AC42C01CBAE28B000BCE40 /* TapTapBuuf.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C2AC42D71CBAE28B000BCE40 /* TapTapBuufTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C2AC42EF1CBAE28B000BCE40 /* Build configuration list for PBXNativeTarget "TapTapBuufTests" */;
+			buildPhases = (
+				C2AC42D41CBAE28B000BCE40 /* Sources */,
+				C2AC42D51CBAE28B000BCE40 /* Frameworks */,
+				C2AC42D61CBAE28B000BCE40 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C2AC42DA1CBAE28B000BCE40 /* PBXTargetDependency */,
+			);
+			name = TapTapBuufTests;
+			productName = TapTapBuufTests;
+			productReference = C2AC42D81CBAE28B000BCE40 /* TapTapBuufTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C2AC42E21CBAE28B000BCE40 /* TapTapBuufUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C2AC42F21CBAE28B000BCE40 /* Build configuration list for PBXNativeTarget "TapTapBuufUITests" */;
+			buildPhases = (
+				C2AC42DF1CBAE28B000BCE40 /* Sources */,
+				C2AC42E01CBAE28B000BCE40 /* Frameworks */,
+				C2AC42E11CBAE28B000BCE40 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C2AC42E51CBAE28B000BCE40 /* PBXTargetDependency */,
+			);
+			name = TapTapBuufUITests;
+			productName = TapTapBuufUITests;
+			productReference = C2AC42E31CBAE28B000BCE40 /* TapTapBuufUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C2AC42B81CBAE28B000BCE40 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Nathan Sowder";
+				TargetAttributes = {
+					C2AC42BF1CBAE28B000BCE40 = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = 7QQLZ5A2X9;
+						LastSwiftMigration = 0830;
+					};
+					C2AC42D71CBAE28B000BCE40 = {
+						CreatedOnToolsVersion = 7.3;
+						LastSwiftMigration = 0830;
+						TestTargetID = C2AC42BF1CBAE28B000BCE40;
+					};
+					C2AC42E21CBAE28B000BCE40 = {
+						CreatedOnToolsVersion = 7.3;
+						LastSwiftMigration = 0830;
+						TestTargetID = C2AC42BF1CBAE28B000BCE40;
+					};
+				};
+			};
+			buildConfigurationList = C2AC42BB1CBAE28B000BCE40 /* Build configuration list for PBXProject "TapTapBuuf" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C2AC42B71CBAE28B000BCE40;
+			productRefGroup = C2AC42C11CBAE28B000BCE40 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C2AC42BF1CBAE28B000BCE40 /* TapTapBuuf */,
+				C2AC42D71CBAE28B000BCE40 /* TapTapBuufTests */,
+				C2AC42E21CBAE28B000BCE40 /* TapTapBuufUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C2AC42BE1CBAE28B000BCE40 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2AC42C61CBAE28B000BCE40 /* GameScene.sks in Resources */,
+				C2AC42F91CBB34C9000BCE40 /* Go Boom!.ttf in Resources */,
+				C2AC42D21CBAE28B000BCE40 /* LaunchScreen.storyboard in Resources */,
+				C2AC42CF1CBAE28B000BCE40 /* Assets.xcassets in Resources */,
+				C2AC42CD1CBAE28B000BCE40 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2AC42D61CBAE28B000BCE40 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2AC42E11CBAE28B000BCE40 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C2AC42BC1CBAE28B000BCE40 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2AC42C81CBAE28B000BCE40 /* GameScene.swift in Sources */,
+				C2AC42CA1CBAE28B000BCE40 /* GameViewController.swift in Sources */,
+				C2AC42F61CBB03D3000BCE40 /* WallRandomisation.swift in Sources */,
+				C2AC42C41CBAE28B000BCE40 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2AC42D41CBAE28B000BCE40 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2AC42DD1CBAE28B000BCE40 /* TapTapBuufTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2AC42DF1CBAE28B000BCE40 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2AC42E81CBAE28B000BCE40 /* TapTapBuufUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C2AC42DA1CBAE28B000BCE40 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C2AC42BF1CBAE28B000BCE40 /* TapTapBuuf */;
+			targetProxy = C2AC42D91CBAE28B000BCE40 /* PBXContainerItemProxy */;
+		};
+		C2AC42E51CBAE28B000BCE40 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C2AC42BF1CBAE28B000BCE40 /* TapTapBuuf */;
+			targetProxy = C2AC42E41CBAE28B000BCE40 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C2AC42CB1CBAE28B000BCE40 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C2AC42CC1CBAE28B000BCE40 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C2AC42D01CBAE28B000BCE40 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C2AC42D11CBAE28B000BCE40 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C2AC42EA1CBAE28B000BCE40 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C2AC42EB1CBAE28B000BCE40 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C2AC42ED1CBAE28B000BCE40 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7QQLZ5A2X9;
+				INFOPLIST_FILE = TapTapBuuf/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = NathanSowder.TapTapBuuf;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C2AC42EE1CBAE28B000BCE40 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7QQLZ5A2X9;
+				INFOPLIST_FILE = TapTapBuuf/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = NathanSowder.TapTapBuuf;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C2AC42F01CBAE28B000BCE40 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				INFOPLIST_FILE = TapTapBuufTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = NathanSowder.TapTapBuufTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TapTapBuuf.app/TapTapBuuf";
+			};
+			name = Debug;
+		};
+		C2AC42F11CBAE28B000BCE40 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TapTapBuufTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = NathanSowder.TapTapBuufTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TapTapBuuf.app/TapTapBuuf";
+			};
+			name = Release;
+		};
+		C2AC42F31CBAE28B000BCE40 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				INFOPLIST_FILE = TapTapBuufUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = NathanSowder.TapTapBuufUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = TapTapBuuf;
+			};
+			name = Debug;
+		};
+		C2AC42F41CBAE28B000BCE40 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TapTapBuufUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = NathanSowder.TapTapBuufUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = TapTapBuuf;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C2AC42BB1CBAE28B000BCE40 /* Build configuration list for PBXProject "TapTapBuuf" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2AC42EA1CBAE28B000BCE40 /* Debug */,
+				C2AC42EB1CBAE28B000BCE40 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C2AC42EC1CBAE28B000BCE40 /* Build configuration list for PBXNativeTarget "TapTapBuuf" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2AC42ED1CBAE28B000BCE40 /* Debug */,
+				C2AC42EE1CBAE28B000BCE40 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C2AC42EF1CBAE28B000BCE40 /* Build configuration list for PBXNativeTarget "TapTapBuufTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2AC42F01CBAE28B000BCE40 /* Debug */,
+				C2AC42F11CBAE28B000BCE40 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C2AC42F21CBAE28B000BCE40 /* Build configuration list for PBXNativeTarget "TapTapBuufUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2AC42F31CBAE28B000BCE40 /* Debug */,
+				C2AC42F41CBAE28B000BCE40 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C2AC42B81CBAE28B000BCE40 /* Project object */;
+}
